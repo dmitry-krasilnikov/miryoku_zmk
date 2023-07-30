@@ -14,19 +14,19 @@ U_BOOT,            &u_to_U_TAP,       &kp RALT,          &kp B,             U_NA
 U_NA,              &kp RALT,          &u_to_U_SYM,       &kp V,             U_NA,              U_NU,              &kp K,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-#define MIRYOKU_NUM \
+#define MIRYOKU_LAYER_NUM \
 &kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &kp RBKT,            &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp SEMI,          &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              U_MT(LSHIFT, EQUAL), &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &kp BSLH,            &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              &kp MINUS,           U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_SYM \
+#define MIRYOKU_LAYER_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &kp RBRC,          &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              U_MT(LSHFT, PLUS), U_MT(LCTRL, DEL),  &kp LALT,          &kp LGUI,          \
 &kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &kp PIPE,          &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              &kp UNDER,         U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_NAV \
+#define MIRYOKU_LAYER_NAV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,             U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         U_MT(LSHFT, u_caps_word), U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
 U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,              U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
