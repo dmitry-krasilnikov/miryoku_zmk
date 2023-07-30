@@ -10,7 +10,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &kp B,             U_NA,              U_RDO,             &kp J,             U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         U_MT(LSHFT, G),    U_NA,              U_NU,              &kp M,            U_MS_D,            U_MS_U,            U_MS_R,            \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         U_MT(LSHFT, G),    U_NA,              U_NU,              U_MT(LSHIFT, M),   &kp LCTRL,         &kp LALT,          &kp LGUI,            \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &kp V,             U_NA,              U_NU,              &kp K,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
