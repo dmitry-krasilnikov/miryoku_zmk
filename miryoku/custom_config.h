@@ -26,8 +26,8 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          U_NA,              &kp PIPE,          &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              &kp UNDER,         U_NA,              U_NP,              U_NP
 
-#define MIRYOKU_LAYER_NAV \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,             U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         U_MT(LSHFT, u_caps_word), U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,              U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NP,              U_NP,              U_NA,              U_NA,                     U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+//#define MIRYOKU_LAYER_NAV \
+//U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,             U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+//&kp LGUI,          &kp LALT,          &kp LCTRL,         U_MT(LSHFT, u_caps_word), U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
+//U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,              U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+//U_NP,              U_NP,              U_NA,              U_NA,                     U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
